@@ -1,0 +1,12 @@
+device: cuda:0
+[0 0 0 ... 1 1 1]
+number of test examples = 203
+>>>sub [0], cross [1], epoch [1], Train Loss: 0.581  Train Acc: 0.700
+test Acc = 0.71761
+model save
+>>>sub [0], cross [1], epoch [2], Train Loss: 0.422  Train Acc: 0.819
+test Acc = 0.82394
+model save
+>>>sub [0], cross [1], epoch [3], Train Loss: 0.377  Train Acc: 0.837
+test Acc = 0.83877
+model save
